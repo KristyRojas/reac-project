@@ -1,6 +1,9 @@
 import React from "react";
 import UserDetails from "./UserDetails";
-import ButtonSection from "./ButtonSection";
+import Episodes from "./Episodes";
+// import ButtonSection from "./ButtonSection";
+import Home from "./Home";
+
 import "./Card.css";
 
 function Card(props) {
@@ -9,6 +12,8 @@ function Card(props) {
   return (
     <div className="card">
       <UserDetails character={character} />
+      <Episodes/>
+      <Home/>
       {/* <ButtonSection socialLinks={socialLinks} /> */}
     </div>
   );

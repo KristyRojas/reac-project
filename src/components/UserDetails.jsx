@@ -15,13 +15,13 @@ const UserDetails = (props) => {
           alt={`avatar de ${character.name}`}
         ></img>
       </div>
-      <h1 className="nombre">{character.name}</h1>
-      <p className="ubicacion">{character.location.name}</p>
+      {/* <h1 className="nombre">{character.name}</h1> */}
+      <button className="ubicacion">{character.status}</button>
       <p className="descripcion">
-        El personaje tiene las siguientes caracteristicas: <br />
+        {/* El personaje tiene las siguientes caracteristicas: <br />
         - Genero: {character.gender}  <br/>
-        - Especie: {character.species} <br/>
-        - Estado: {character.status} 
+        - Especie: {character.species} <br/> */}
+        {character.type} 
       </p>
     </div>
   );

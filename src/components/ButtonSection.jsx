@@ -6,9 +6,10 @@ const ButtonSection = ({ socialLinks }) => {
   return (
     <div className="contenedorGrande">
       <div className="container">
-        {socialLinks.map((socialLink) => (
+        <button>HOME</button>
+        {/* {socialLinks.map((socialLink) => (
           <button key={socialLink.name}>{socialLink.name}</button>
-        ))}
+        ))} */}
       </div>
     </div>
   );
