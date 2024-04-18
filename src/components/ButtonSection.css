@@ -1,34 +1,34 @@
-.Contenedor1 .container { 
-    margin-top: 5px;   
-    height: 265px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    align-content: center;
-    justify-content: space-around;
-  }
-  button {
-    width: 255px;
-    height: 40px;
-    font-family: InterNegrilla;
-    border: 1px solid var(--Grey) ;
-    background: var(--Grey) ;
-    color: var(--White);
-    font-size: small;
-    border-radius: 6px;
-    transition: background-color 0.8s;
-  }
-  
-  button:hover{
-    background-color: var(--Green);
-    color: var(--OffBlack);
-  }
+.contenedorGrande .container { 
+  margin-top: 5px;   
+  height: 265px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  justify-content: space-around;
+}
+button {
+  width: 255px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 700  ;
+  border: 1px solid var(--Grey) ;
+  background: var(--Grey) ;
+  color: var(--White);
+  font-size: small;
+  border-radius: 6px;
+  transition: background-color 1s;
+}
+
+button:hover{
+  background-color: var(--Green);
+  color: var(--OffBlack);
+}
 
 .inter-Negrilla {
-    font-family: "InterNegrilla", sans-serif;
-    font-optical-sizing: auto;
-    font-style: Bold;
-    font-variation-settings:
-      "slnt" 0;
-  }
-  
+  font-family: "InterNegrilla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: Bold;
+  font-variation-settings:
+    "slnt" 0;
+}

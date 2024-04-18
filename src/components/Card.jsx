@@ -3,16 +3,28 @@ import UserDetails from "./UserDetails";
 import ButtonSection from "./ButtonSection";
 import "./Card.css";
 
+function Card(props) {
+  const character = props.character;
 
-function Card(props){
-    const user=props.user;
-    //console.log(user)
-    const socialLinks=user["social-profile"]
   return (
-    <div className="contenedorDinamico">
-    <UserDetails user={user} /> 
-      <ButtonSection socialLinks={socialLinks}/>
+    <div className="card">
+      <UserDetails character={character} />
+      {/* <ButtonSection socialLinks={socialLinks} /> */}
     </div>
   );
 }
+
 export default Card;
+
+
+
+
+
+
+
+
+
+
+  //console.log(character.name);
+  // const socialLinks = user["Social-links"];
+  //const locations = character["location"];

@@ -1,56 +1,70 @@
-.Contenedor1{
-    width: 250px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-  }
-  .redonda{
-    border-radius: 100%;
-    width: 80px;
-    height: 80px;
-  }
-  
-  .contenedorImagen{
-    width: auto;
-    height: auto;
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    align-content: center;
-  
-  }
-  
-.nombre{
-    display: flex;
-    width: auto;
-    height: auto;
-    color: var(--White);
-    font-size: large;
-    justify-content: center;
-    margin-bottom: 9px;
-  }
-  .ubicacion{
-    display: flex;
-    margin:0px;
-    color:  var(--Green);
-    font-size: x-small;
-    justify-content: center;
-  }
-  
-  .descripcion{
-    display: flex;
-    width: auto;
-    font-family: 'Inter';
-    height: auto;
-    margin-top: 25px;
-    color: var(--White);
-    font-size: x-small;
-    justify-content: center;
-  }
+.contenedorGrande{
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin: 10px; /* Márgenes de 20 píxeles en todos los lados */
+  border: 2px solid rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+}
+.redonda{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
 
-  .inter-Normal {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-  }
+.contenedorImagen{
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+
+}
+
+.nombre{
+  display: flex;
+  width: auto;
+  height: auto;
+  color: purple;
+  font-family:"Inter", sans-serif;
+  font-weight: 700;
+  font-size: large;
+  justify-content: center;
+  margin-bottom: 9px;
+}
+.ubicacion{
+  display: flex;
+  margin:0px;
+  color:  rgb(59, 166, 185);
+  font-size: 12px;
+  /* font-size: x-small; */
+  justify-content: center;
+}
+
+.descripcion{
+  background-color: white;
+  display: flex;
+  width: auto;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  height: auto;
+  margin-top: 25px;
+  color: black;
+  font-size: 10px;
+  justify-content: center;
+  align-content:center;
+  margin: 2px;
+  border-top: 2px solid white;
+}
+
+.inter-Normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
