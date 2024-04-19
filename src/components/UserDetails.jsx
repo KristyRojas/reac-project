@@ -5,7 +5,9 @@ const UserDetails = (props) => {
   // const [user, setUser] = useState({});
   // setUser(props.user);
   const character = props.character;
-  
+  if (!character) {
+    return <div>No se ha proporcionado ningún personaje</div>;
+  }
   return (
     <div className="contenedorGrande">
       <div className="contenedorImagen">

@@ -1,0 +1,48 @@
+.cuadro{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.tarjetaEpi{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.titulo h1{
+    font-size:13px;
+    display:flex;
+}
+
+.contenedorEpisode{
+    width: 50%;
+    margin-top:0px;
+    border: 2px solid rgb(196, 152, 196);
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.nombre{
+    font-size: 10px;
+    display:flex;
+    justify-content:center;
+}
+
+
+.episode{
+    font-size: 10px;
+    display:flex;
+
+    justify-content:center;
+}
+
+.air{
+    color: white;
+    background-color:rgb(32, 32, 32) ;
+    display:flex;
+
+    justify-content:center;
+    height: 20px;
+    font-size: 10px;
+}

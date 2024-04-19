@@ -1,5 +1,5 @@
 .contenedorGrande{
-  width: 250px;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -16,9 +16,9 @@
 }
 
 .contenedorImagen{
-  width: auto;
+  width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
@@ -42,7 +42,7 @@
   display: flex;
   margin:0px;
   color:  rgb(59, 166, 185);
-  font-size: 12px;
+  font-size: 18px;
   /* font-size: x-small; */
   justify-content: center;
   height: 20px;

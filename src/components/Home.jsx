@@ -4,8 +4,8 @@ import "./Home.css";
 
 function Home() {
   return(
-  <div className="contenedorGrande">
-      <div className="container">
+  <div className="casa">
+      <div className="co">
         <button>HOME</button>
        </div>
        
