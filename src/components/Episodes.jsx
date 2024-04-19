@@ -128,7 +128,7 @@ const Episodes = () => {
 
         {episodes.map(episode => (
         <div key={episode.id} className="contenedorEpisode">
-          <h1 className="nombre">{episode.name}</h1>
+          <h1 className="name">{episode.name}</h1>
           <p className="episode">{episode.episode}</p>
           <p className="air">{episode.air_date}</p>
         </div>

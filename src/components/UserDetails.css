@@ -33,7 +33,7 @@
   color: purple;
   font-family:"Inter", sans-serif;
   font-weight: 700;
-  font-size: large;
+  font-size: 20px;
   justify-content: center;
   margin-bottom: 9px;
 }
@@ -45,9 +45,13 @@
   font-size: 18px;
   /* font-size: x-small; */
   justify-content: center;
-  height: 20px;
-  width: 80px;
+  height: 30px;
+  width: 100px;
   border-radius: 10px;
+}
+button:hover{
+  background-color: var(--Green);
+  color: var(--OffBlack);
 }
 
 .descripcion{
@@ -61,7 +65,7 @@
   height: 100%;
   margin-top: 25px;
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   justify-content: center;
   align-content:center;
   margin: 2px;

@@ -39,8 +39,9 @@ function App() {
 export default App; */
 
 import React, { useState, useEffect } from "react";
-import Card from "./components/Card";
+import RickAndMortyApp from "./component/RickAndMortyApp";
 import "./App.css";
+import RickAndMortyApp from "./components/RickAndMortyApp";
 
  function numerosAleatorios() {
   const numeros = [];
@@ -52,7 +53,7 @@ import "./App.css";
 }
 
 function App() {
-  const [characters, setcharacters] = useState([]);
+  /* const [characters, setcharacters] = useState([]);
   
   // const [error, setError] = useState(null);
 
@@ -69,7 +70,7 @@ function App() {
         setcharacters(data);
         //console.log(data);
       });
-  }, []);
+  }, []); */
 
   /* useEffect(() => {
     const fetchCharacters = async () => {
@@ -92,11 +93,12 @@ function App() {
 
   
   return (
-    <div>
+   <RickAndMortyApp/> 
+   /*  <div>
       {characters.map((character) => (
         <Card key={character.id} character={character} />
       ))}
-    </div>
+    </div> */
   );
 }
 
