@@ -86,20 +86,20 @@ const Episodes = (props) => {
 export default Episodes; */
 
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Episodes.css" // Asumiendo que tienes un componente Card
 
-function numerosAleatorios() {
-  const numeros = [];
-  for (let i = 0; i < 4; i++) {
-    numeros.push(Math.floor(Math.random() * 56)); 
-  }
-  return numeros;
-}
 
-const Episodes = () => {
-  const [episodes, setEpisodes] = useState([]);
-  
+
+const Episodes = ({episodes}) => {
+  /* const [episodes, setEpisodes] = useState([]);
+  function numerosAleatorios() {
+    const numeros = [];
+    for (let i = 0; i < 4; i++) {
+      numeros.push(Math.floor(Math.random() * 56)); 
+    }
+    return numeros;
+  }
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -117,7 +117,7 @@ const Episodes = () => {
     };
     fetchData();
   }, []);
-
+ */
   return (
     <div className="cuadro">
       <div className="titulo">

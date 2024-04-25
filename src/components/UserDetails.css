@@ -1,16 +1,15 @@
 .contenedorGrande{
   width: 80%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
   margin: 10px; /* Márgenes de 20 píxeles en todos los lados */
-  border: 2px solid rgb(255, 255, 255);
   align-items: center;
   justify-content: center;
+  
 }
 .redonda{
-  
+  border-radius: 5%; 
   width: 100%;
   height: 100%;
 }

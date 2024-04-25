@@ -5,12 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color:var(--OffBlack);
     /* ## Colors */
 /* ### Primary */
 --Green: hsl(75, 94%, 57%);
@@ -19,6 +14,14 @@
 --Grey: hsl(0, 0%, 20%);
 --DarkGrey: hsl(0, 0%, 12%);
 --OffBlack: hsl(0, 0%, 8%);
+}
+
+#root
+{
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 a {
@@ -31,13 +34,14 @@ a:hover {
 }
 
 body {
+  background-color: var(--OffBlack);
   margin: 0;
   display: flex;
-  min-width: 320px;
-  min-height: 100vh;
+  width:100%;
+  height: 100%;
   background:  var(--OffBlack);
-  flex-wrap: wrap;
-  flex-direction: column;
+  display:flex;
+  justify-content: space-between;
   align-content: center;
   font-family: Inter;
 }

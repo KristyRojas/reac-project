@@ -1,0 +1,18 @@
+.car{
+    display:flex;
+    margin-top: 90px;
+    background-color:  var(--DarkGrey) ;
+    border-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 10px 5px;
+    overflow: hidden;
+    margin-right:100px;
+  }
+  
+  @media (max-width: 375px) {
+    .car{
+
+         margin-top: 90px;
+         scale: 1.2;
+    }
+   }

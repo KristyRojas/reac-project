@@ -1,0 +1,15 @@
+/* .inter-ligero {
+    font-family: "InterLigero", sans-serif;
+    font-optical-sizing: auto;
+    font-style: Light;
+    font-variation-settings:
+      "slnt" 0;
+  }
+   */
+
+
+.casa{
+    border:none;
+    display:flex;
+    flex-direction:center;
+}

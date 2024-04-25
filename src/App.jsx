@@ -38,19 +38,12 @@ function App() {
 
 export default App; */
 
-import React, { useState, useEffect } from "react";
-import RickAndMortyApp from "./component/RickAndMortyApp";
+import React from "react";
+//import Navigation from "./Routes/Navigation";
+import Navigation from "./Routes/Navigation";
+//import RickAndMortyApp from "./component/RickAndMortyApp";
 import "./App.css";
-import RickAndMortyApp from "./components/RickAndMortyApp";
 
- function numerosAleatorios() {
-  const numeros = [];
-  for (let i = 0; i < 2; i++) {
-    numeros.push(Math.floor(Math.random() * 827)); 
-  }
-  numeros.toString();
-  return numeros;
-}
 
 function App() {
   /* const [characters, setcharacters] = useState([]);
@@ -93,7 +86,7 @@ function App() {
 
   
   return (
-   <RickAndMortyApp/> 
+   <Navigation/> 
    /*  <div>
       {characters.map((character) => (
         <Card key={character.id} character={character} />

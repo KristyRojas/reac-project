@@ -1,11 +1,11 @@
 import React from "react";
 import "./UserDetails.css";
 
-const UserDetails = (props) => {
+const UserDetails = ({personaje}) => {
   // const [user, setUser] = useState({});
   // setUser(props.user);
-  const character = props.character;
-  if (!character) {
+  //const character = props.character;
+  if (!personaje) {
     return <div>No se ha proporcionado ningún personaje</div>;
   }
   return (
@@ -13,17 +13,17 @@ const UserDetails = (props) => {
       <div className="contenedorImagen">
         <img
           className="redonda"
-          src={character.image}
-          alt={`avatar de ${character.name}`}
+          src={personaje.image}
+          alt={`avatar de ${personaje.name}`}
         ></img>
       </div>
-      <h1 className="nombre">{character.name}</h1> 
-      <button className="ubicacion"> {character.status} </button>
+      <h1 className="nombre">{personaje.name}</h1> 
+      <button className="ubicacion"> {personaje.status} </button>
       <p className="descripcion">
         {/* El personaje tiene las siguientes caracteristicas: <br />
         - Genero: {character.gender}  <br/>
         - Especie: {character.species} <br/> */}
-        {character.type} 
+        {personaje.type} 
       </p>
     </div>
   );

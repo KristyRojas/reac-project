@@ -2,17 +2,24 @@ import React from "react";
 import UserDetails from "./UserDetails";
 import Episodes from "./Episodes";
 // import ButtonSection from "./ButtonSection";
-import Home from "./Home";
-import "./Card.css";
+import Casa from "./Casa";
+import "./Card.css"
+import { NavLink } from "react-router-dom";
 
-function Card(props) {
-  const character = props.character;
-  const episode=props.episode;
+
+function Card({personaje, episodes}) {
+ // const personaje = props.personaje;
+  //const episode=props.episode;
   return (
+    
     <div className="card">
-      <UserDetails character={character} />
-      <Episodes episode={episode} /> 
-      <Home/>
+      <UserDetails personaje={personaje} />
+      <Episodes episodes={episodes} /> 
+
+      <NavLink to="/">
+          <Casa/>
+      </NavLink>
+      
       {/* <ButtonSection socialLinks={socialLinks} /> */}
     </div>
   );

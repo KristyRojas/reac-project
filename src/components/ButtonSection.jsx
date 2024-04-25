@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import "./ButtonSection.css";
 
 const ButtonSection = ({ socialLinks }) => {
@@ -9,10 +9,10 @@ const ButtonSection = ({ socialLinks }) => {
         <button>HOME</button>
         {/* {socialLinks.map((socialLink) => (
           <button key={socialLink.name}>{socialLink.name}</button>
-        ))} */}
-      </div>
+        ))} }*/
+ /*     </div>
     </div>
   );
 };
 
-export default ButtonSection;
+export default ButtonSection; */
