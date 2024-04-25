@@ -14,7 +14,7 @@ const router=createHashRouter([
   },
   {
     path:"/character",
-    element:<RickAndMorty/>
+    element:<RickAndMortyApp/>
   },
   {
     path:"/*",
@@ -24,7 +24,7 @@ const router=createHashRouter([
 );
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouteProvider router={router}/>
+    <RouterProvider router={router}/>
     {/* <App /> */}
   </React.StrictMode>,
 )
