@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Home from './components/Home.jsx'
 import RickAndMortyApp from './RickAndMortyApp.jsx'
+import Error from './components/Error.jsx'
 import {createHashRouter, RouterProvider} from "react-router-dom"
 
 
@@ -18,7 +19,7 @@ const router=createHashRouter([
   },
   {
     path:"/*",
-    element:<p>ERROR 404 PAGE NOT FOUND</p>
+    element:<Error/>
   },
 ]
 );
